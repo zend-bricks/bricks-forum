@@ -1,8 +1,8 @@
 <?php
 
-namespace ZendBricks\BricksUser\Api;
+namespace ZendBricks\BricksForum\Api;
 
-interface UserApiInterface {
+interface ForumApiInterface {
     const SERVICE_NAME = 'BricksForumApi';
     
     public function createCategory(array $values);
